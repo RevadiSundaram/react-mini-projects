@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.star-rating {
+  display: flex;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.active {
+  color: #fff700;
+}
+.inactive {
+  color: black;
+}
